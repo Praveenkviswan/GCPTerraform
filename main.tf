@@ -1,4 +1,4 @@
 provider "google"{
   project =var.GCP_PROJECT
-  credentials = file("praveen.json")
+  credentials = credentials = file(var.gcp_auth_file)
 }
