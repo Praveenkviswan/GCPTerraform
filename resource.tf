@@ -1,4 +1,4 @@
-/*resource "google_compute_instance" "webserver"{
+resource "google_compute_instance" "webserver"{
   name         = "mywbserver"
   machine_type = "n1-standard-1"
   zone         = var.GCP_ZONE
@@ -23,4 +23,4 @@
   }
 
 }
-*/
+
