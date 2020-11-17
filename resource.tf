@@ -1,5 +1,5 @@
-resource "google_compute_instance" "webserver"{
-  name         = "mywbserver"
+resource "google_compute_instance" "dmzwebserver"{
+  name         = "myapacheserver"
   machine_type = "n1-standard-1"
   zone         = var.GCP_ZONE
   tags = ["foo", "bar"]
